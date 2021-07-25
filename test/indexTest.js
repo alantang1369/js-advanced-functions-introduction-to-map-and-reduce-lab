@@ -10,7 +10,7 @@ describe('my own map-like methods', function() {
       expect(mapToNoChange(dune)).to.eql(dune)
     })
   })
-
+               
   describe("mapToDouble returns an array with the original values multiplied by 2", function() {
     it("transforms correctly", function(){
       expect(mapToDouble([1, 2, 3, -9])).to.eql([2, 4, 6, -18])
